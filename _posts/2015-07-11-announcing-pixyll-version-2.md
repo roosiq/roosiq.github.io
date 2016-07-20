@@ -5,6 +5,8 @@ date:       2015-07-11
 summary:    Now, Pixyll is lighter weight and more customizable than before.
 categories: jekyll pixyll
 ---
+<script src='https://maps.googleapis.com/maps/api/js?v=3&sensor=false&libraries=visualization'></script>
+
 <div class="span12">
             
                 
