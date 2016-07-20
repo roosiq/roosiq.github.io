@@ -7,14 +7,17 @@ tags: contact
 
 <div class="py2">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <form class="form-stacked" action="https://getsimpleform.com/messages?form_api_token=2504d4c58303deff3cf7fa535eb65e39" method="post">
+=======
+    <form action="https://getsimpleform.com/messages?form_api_token=2504d4c58303deff3cf7fa535eb65e39" method="post">
+>>>>>>> parent of 7ced487... ud
         <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-        <input type='hidden' name='redirect_to' value='http://poke-goers.com>' />
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}" style="resize: vertical"></textarea>
+        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
         <!-- all your input fields here.... -->
         <input type='text' name='test' />
         <input name='content' type='text' />
+<<<<<<< HEAD
         <input type="text" name="_gotcha" style="display:none" />
         <input type='submit' value='Test form' class="button button-blue button-big mobile-block" />
 =======
@@ -25,6 +28,9 @@ tags: contact
       <input type="text" name="_gotcha" style="display:none" />
       <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit }}</button>
 >>>>>>> parent of 52d24ae... contact update
+=======
+        <input type='submit' value='Test form' />
+>>>>>>> parent of 7ced487... ud
     </form>
   {% else %}
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
